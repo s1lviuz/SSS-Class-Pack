@@ -1,0 +1,15 @@
+/.vscode
+/crash-reports
+/downloads
+/journeymap
+/local
+/logs
+/mods
+/resourcepacks
+/saves
+/schematics
+.curseclient
+/*.txt
+/*.json
+/*.toml
+/*.properties
