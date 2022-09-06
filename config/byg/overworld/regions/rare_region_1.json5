@@ -22,7 +22,7 @@ Biome selectors may be inlined or may call a file from "this_file_parent_directo
 	   All keys passed in must be valid in the biome registry!
 	   "minecraft:the_void" is invalid as it represents a value of "NULL(nothing)" internally.
 	*/
-	"beach_biomes": "beach_biomes/beach_biomes_1",
+	"beach_biomes": "beach_biomes/beach_biomes_vanilla",
 	/* Appearing on terrain BELOW weirdness 0 or in unfilled("NULL(nothing)") spots in "middle_biomes_variants", here is the "middle_biomes" layout:
 	   
 	   [ ARID-ICY, DRY-ICY, NEUTRAL-ICY, WET-ICY, HUMID-ICY ],

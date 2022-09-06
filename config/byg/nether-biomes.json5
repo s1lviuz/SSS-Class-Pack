@@ -69,10 +69,6 @@ If your settings in this file seem to have to no effect on the generation of the
 				"weight": 2
 			},
 			{
-				"data": "byg:magma_wastes",
-				"weight": 2
-			},
-			{
 				"data": "byg:sythian_torrids",
 				"weight": 0
 			},
@@ -82,6 +78,18 @@ If your settings in this file seem to have to no effect on the generation of the
 			},
 			{
 				"data": "byg:arisian_undergrowth",
+				"weight": 2
+			},
+			{
+				"data": "byg:glowstone_gardens",
+				"weight": 2
+			},
+			{
+				"data": "byg:warped_desert",
+				"weight": 2
+			},
+			{
+				"data": "byg:weeping_mire",
 				"weight": 2
 			}
 		]
@@ -239,6 +247,10 @@ If your settings in this file seem to have to no effect on the generation of the
 			},
 			{
 				"data": "byg:arisian_undergrowth",
+				"weight": 2
+			},
+			{
+				"data": "byg:magma_wastes",
 				"weight": 2
 			}
 		]
