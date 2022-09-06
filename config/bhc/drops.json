@@ -1,0 +1,16 @@
+{
+  "heartEntries": {
+    "red": {
+      "hostile": 0.03
+    },
+    "green": {
+      "dragon": 1.0
+    },
+    "blue": {
+      "minecraft:evoker": 0.5
+    },
+    "yellow": {
+      "boss": 0.5
+    }
+  }
+}
