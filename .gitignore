@@ -1,4 +1,11 @@
+#Dev
 /.vscode
+SSS Class Pack.code-workspace
+/kubejs/example_scripts
+/kubejs/assets/example_textures
+
+
+#Client
 /crash-reports
 /downloads
 /journeymap
@@ -13,3 +20,6 @@
 /*.json
 /*.toml
 /*.properties
+/config/jei/world
+
+
