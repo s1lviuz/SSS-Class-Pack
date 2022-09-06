@@ -19,12 +19,10 @@ All keys passed in must be valid in the biome registry!
 */
 {
 	"value": [
-		[ "byg:shattered_glacier", "byg:cardinal_tundra","byg:black_forest" ],
-		[ "byg:coconino_meadow", "byg:coconino_meadow", ],
-		[ "byg:prairie" ],
-		[ "byg:baobab_savanna", "byg:araucaria_savanna", "byg:ebony_woods", "byg:tropical_rainforest" ],
-		[ "byg:atacama_desert", "byg:windswept_desert", "byg:windswept_desert", "byg:mojave_desert", "byg:red_rock_valley" ],
-		[ "minecraft:savanna", "minecraft:savanna", "minecraft:forest", "minecraft:jungle", "minecraft:jungle" ],
-		[ "minecraft:desert", "minecraft:desert", "minecraft:desert", "minecraft:desert", "minecraft:desert" ]
+		[ "byg:shattered_glacier", "byg:cardinal_tundra","byg:black_forest", "minecraft:savanna", "minecraft:savanna" ],
+		[ "byg:coconino_meadow", "byg:coconino_meadow", "minecraft:savanna", "minecraft:forest", "minecraft:jungle" ],
+		[ "byg:prairie", "minecraft:desert", "minecraft:desert", "minecraft:desert", "minecraft:desert" ],
+		[ "byg:baobab_savanna", "byg:araucaria_savanna", "byg:ebony_woods", "byg:tropical_rainforest", "minecraft:desert" ],
+		[ "byg:atacama_desert", "byg:windswept_desert", "byg:windswept_desert", "byg:mojave_desert", "byg:red_rock_valley" ]
 	]
 }

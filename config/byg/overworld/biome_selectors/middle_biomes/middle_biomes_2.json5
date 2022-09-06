@@ -19,12 +19,10 @@ All keys passed in must be valid in the biome registry!
 */
 {
 	"value": [
-		[ "byg:frosted_taiga" ],
-		[ "byg:coconino_meadow" ],
-		[ "byg:orchard", "byg:orchard" ],
-		[ "byg:amaranth_fields", "byg:tropical_rainforest" ],
-		[ "byg:atacama_desert", "byg:atacama_desert", "byg:atacama_desert", "byg:mojave_desert" ],
-		[ "minecraft:flower_forest", "minecraft:plains", "minecraft:forest", "minecraft:birch_forest", "minecraft:dark_forest" ],
-		[ "minecraft:savanna", "minecraft:savanna", "minecraft:forest", "minecraft:jungle", "minecraft:jungle" ]
+		[ "byg:frosted_taiga", "minecraft:flower_forest", "minecraft:plains", "minecraft:forest", "minecraft:birch_forest" ],
+		[ "byg:coconino_meadow", "minecraft:savanna", "minecraft:forest", "minecraft:jungle", "minecraft:jungle" ],
+		[ "byg:orchard", "byg:orchard", "minecraft:plains", "minecraft:forest", "minecraft:savanna", "minecraft:forest" ],
+		[ "byg:amaranth_fields", "byg:tropical_rainforest", "minecraft:jungle", "minecraft:jungle", "minecraft:birch_forest" ],
+		[ "byg:atacama_desert", "byg:atacama_desert", "byg:atacama_desert", "byg:mojave_desert", "minecraft:jungle" ]
 	]
 }

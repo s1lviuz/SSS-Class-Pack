@@ -19,12 +19,10 @@ All keys passed in must be valid in the biome registry!
 */
 {
 	"value": [
-		[ "byg:shattered_glacier" ],
-		[ "byg:weeping_witch_forest" ],
-		[ "byg:prairie" ],
-		[ "byg:araucaria_savanna", "byg:baobab_savanna", "byg:ebony_woods",],
-		[ "byg:atacama_desert", "byg:red_rock_valley", "byg:mojave_desert", "byg:windswept_desert" ],
-		[ "minecraft:snowy_plains", "minecraft:snowy_plains", "minecraft:snowy_plains", "minecraft:snowy_taiga", "minecraft:taiga" ],
-		[ "minecraft:plains", "minecraft:plains", "minecraft:forest", "minecraft:taiga", "minecraft:old_growth_spruce_taiga" ]
+		[ "byg:shattered_glacier", "minecraft:snowy_plains", "minecraft:snowy_plains", "minecraft:snowy_plains", "minecraft:snowy_taiga" ],
+		[ "byg:weeping_witch_forest","minecraft:plains", "minecraft:plains", "minecraft:forest", "minecraft:taiga" ],
+		[ "byg:prairie", "minecraft:taiga", "minecraft:old_growth_spruce_taiga","minecraft:snowy_plains", "minecraft:snowy_plains" ],
+		[ "byg:araucaria_savanna", "byg:baobab_savanna", "byg:ebony_woods", "minecraft:snowy_plains", "minecraft:old_growth_spruce_taiga" ],
+		[ "byg:atacama_desert", "byg:red_rock_valley", "byg:mojave_desert", "byg:windswept_desert", "minecraft:plains" ],
 	]
 }

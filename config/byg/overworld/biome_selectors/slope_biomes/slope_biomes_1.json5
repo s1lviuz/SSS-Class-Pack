@@ -21,10 +21,8 @@ All keys passed in must be valid in the biome registry!
 	"value": [
 		[ "byg:howling_peaks", "byg:howling_peaks", "byg:howling_peaks", "byg:howling_peaks", "byg:howling_peaks" ],
 		[ "byg:howling_peaks", "byg:howling_peaks", "byg:howling_peaks", "byg:howling_peaks", "byg:howling_peaks" ],
-		[ "byg:canadian_shield" ],
-		[ "byg:guiana_shield", "byg:guiana_shield", "byg:guiana_shield" ],
+		[ "byg:canadian_shield", "minecraft:snowy_slopes", "minecraft:snowy_slopes", "minecraft:grove", "minecraft:savanna_plateau" ],
+		[ "byg:guiana_shield", "byg:guiana_shield", "byg:guiana_shield", "minecraft:forest", "minecraft:jungle" ],
 		[ "minecraft:badlands", "minecraft:badlands", "minecraft:badlands", "minecraft:wooded_badlands", "minecraft:wooded_badlands" ],
-		[ "minecraft:snowy_slopes", "minecraft:snowy_slopes", "minecraft:grove", "minecraft:grove", "minecraft:grove" ],
-		[ "minecraft:savanna_plateau", "minecraft:savanna_plateau", "minecraft:forest", "minecraft:forest", "minecraft:jungle" ]
 	]
 }

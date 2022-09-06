@@ -19,12 +19,10 @@ All keys passed in must be valid in the biome registry!
 */
 {
 	"value": [
-		[ "byg:frosted_taiga", "byg:borealis_grove" ],
-		[ "byg:coconino_meadow" ],
-		[ "byg:temperate_grove", "byg:orchard", "byg:aspen_forest", "byg:red_oak_forest" ],
+		[ "byg:frosted_taiga", "byg:borealis_grove", "minecraft:forest", "minecraft:taiga", "minecraft:snowy_taiga" ],
+		[ "byg:coconino_meadow", "minecraft:snowy_plains", "minecraft:snowy_plains", "minecraft:snowy_plains", "minecraft:snowy_taiga" ],
+		[ "byg:temperate_grove", "byg:orchard", "byg:aspen_forest", "byg:red_oak_forest", "minecraft:meadow" ],
 		[ "byg:baobab_savanna", "byg:araucaria_savanna", "byg:ebony_woods", "byg:tropical_rainforest", "byg:guiana_shield" ],
-		[ "byg:firecracker_shrubland", "byg:sierra_badlands", "byg:sierra_badlands", "byg:red_rock_valley", "byg:red_rock_valley" ],
-		[ "minecraft:snowy_plains", "minecraft:snowy_plains", "minecraft:snowy_plains", "minecraft:snowy_taiga", "minecraft:snowy_taiga" ],
-		[ "minecraft:meadow", "minecraft:meadow", "minecraft:forest", "minecraft:taiga", "minecraft:old_growth_spruce_taiga" ]
+		[ "byg:firecracker_shrubland", "byg:sierra_badlands", "byg:sierra_badlands", "byg:red_rock_valley", "byg:red_rock_valley" ]
 	]
 }
