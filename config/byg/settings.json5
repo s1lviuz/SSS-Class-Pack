@@ -18,7 +18,7 @@ to make editing this file much easier.
 	   "byg/worldgen/configured_feature/global/<decoration_stage>"
 	   in the output folder.
 	*/
-	"add_biome_placed_features": true,
+	"add_biome_placed_features": false,
 	// Add custom BYG Structures?
 	"add_custom_structures": true,
 	// Add custom BYG Villagers/Structures to villages?
@@ -35,7 +35,7 @@ to make editing this file much easier.
 	   BYG's added loot to abandoned mineshafts: "data/byg/append_loot_tables/minecraft/chests/abandoned_mineshaft.json"
 	   BYG's added loot to Repurposed Structure's Jungle Village Jungle House: "data/byg/append_loot_tables/repurposed_structures/chests/villages/jungle_house.json"
 	*/
-	"add_loot_tables": true,
+	"add_loot_tables": false,
 	// Use BYG world generation?
 	"world_generation": true
 }

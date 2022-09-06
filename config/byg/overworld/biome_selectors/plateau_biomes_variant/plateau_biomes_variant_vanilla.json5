@@ -20,7 +20,7 @@ In slots containing "minecraft:the_void", biomes at the equivalent temperature/h
 {
 	"value": [
 		[ "minecraft:ice_spikes", "minecraft:the_void", "minecraft:the_void", "minecraft:the_void", "minecraft:the_void" ],
-		[ "minecraft:the_void", "minecraft:the_void", "minecraft:meadow", "minecraft:meadow", "minecraft:old_growth_pine_taiga" ],
+		[ "minecraft:the_void", "minecraft:the_void", "minecraft:meadow", "minecraft:meadow", "minecraft:plains" ],
 		[ "minecraft:the_void", "minecraft:the_void", "minecraft:forest", "minecraft:birch_forest", "minecraft:the_void" ],
 		[ "minecraft:the_void", "minecraft:the_void", "minecraft:the_void", "minecraft:the_void", "minecraft:the_void" ],
 		[ "minecraft:eroded_badlands", "minecraft:eroded_badlands", "minecraft:the_void", "minecraft:the_void", "minecraft:the_void" ]

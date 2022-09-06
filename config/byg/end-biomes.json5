@@ -18,7 +18,7 @@ If your settings in this file seem to have to no effect on the generation of the
 	"forceBYGEndBiomeSource": true,
 	// Biomes that spawn where the large end islands/surface generate.
 	"islandLayer": {
-		"biomeSize": 4,
+		"biomeSize": 3,
 		/* Higher weight, means the biome in question is bound to spawn more frequently against all other biomes listed here.
 		   Weight of 0 means the biome is disabled.
 		   
@@ -44,11 +44,11 @@ If your settings in this file seem to have to no effect on the generation of the
 			},
 			{
 				"data": "byg:nightshade_forest",
-				"weight": 3
+				"weight": 0
 			},
 			{
 				"data": "byg:ethereal_islands",
-				"weight": 3
+				"weight": 0
 			},
 			{
 				"data": "byg:bulbis_gardens",
@@ -60,11 +60,11 @@ If your settings in this file seem to have to no effect on the generation of the
 			},
 			{
 				"data": "byg:cryptic_wastes",
-				"weight": 1
+				"weight": 0
 			},
 			{
 				"data": "byg:imparius_grove",
-				"weight": 3
+				"weight": 0
 			},
 			{
 				"data": "minecraft:small_end_islands",
