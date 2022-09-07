@@ -45,14 +45,6 @@ If your settings in this file seem to have to no effect on the generation of the
 				"weight": 2
 			},
 			{
-				"data": "byg:weeping_mire",
-				"weight": 0
-			},
-			{
-				"data": "byg:embur_bog",
-				"weight": 0
-			},
-			{
 				"data": "byg:brimstone_caverns",
 				"weight": 0
 			},
@@ -61,20 +53,20 @@ If your settings in this file seem to have to no effect on the generation of the
 				"weight": 0
 			},
 			{
-				"data": "byg:warped_desert",
+				"data": "byg:embur_bog",
 				"weight": 0
 			},
 			{
+				"data": "byg:magma_wastes",
+				"weight": 2
+			},
+			{
 				"data": "byg:quartz_desert",
-				"weight": 0
+				"weight": 2
 			},
 			{
 				"data": "byg:crimson_gardens",
 				"weight": 2
-			},
-			{
-				"data": "byg:glowstone_gardens",
-				"weight": 0
 			},
 			{
 				"data": "byg:sythian_torrids",
@@ -89,7 +81,15 @@ If your settings in this file seem to have to no effect on the generation of the
 				"weight": 2
 			},
 			{
-				"data": "byg:magma_wastes",
+				"data": "byg:glowstone_gardens",
+				"weight": 2
+			},
+			{
+				"data": "byg:warped_desert",
+				"weight": 2
+			},
+			{
+				"data": "byg:weeping_mire",
 				"weight": 2
 			}
 		]
@@ -206,6 +206,14 @@ If your settings in this file seem to have to no effect on the generation of the
 				"weight": 2
 			},
 			{
+				"data": "byg:weeping_mire",
+				"weight": 0
+			},
+			{
+				"data": "byg:embur_bog",
+				"weight": 0
+			},
+			{
 				"data": "byg:brimstone_caverns",
 				"weight": 0
 			},
@@ -214,20 +222,20 @@ If your settings in this file seem to have to no effect on the generation of the
 				"weight": 0
 			},
 			{
-				"data": "byg:embur_bog",
+				"data": "byg:warped_desert",
 				"weight": 0
 			},
 			{
-				"data": "byg:magma_wastes",
-				"weight": 2
-			},
-			{
 				"data": "byg:quartz_desert",
-				"weight": 2
+				"weight": 0
 			},
 			{
 				"data": "byg:crimson_gardens",
 				"weight": 2
+			},
+			{
+				"data": "byg:glowstone_gardens",
+				"weight": 0
 			},
 			{
 				"data": "byg:sythian_torrids",
@@ -242,15 +250,7 @@ If your settings in this file seem to have to no effect on the generation of the
 				"weight": 2
 			},
 			{
-				"data": "byg:glowstone_gardens",
-				"weight": 2
-			},
-			{
-				"data": "byg:warped_desert",
-				"weight": 2
-			},
-			{
-				"data": "byg:weeping_mire",
+				"data": "byg:magma_wastes",
 				"weight": 2
 			}
 		]

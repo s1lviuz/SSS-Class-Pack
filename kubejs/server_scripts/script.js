@@ -7,8 +7,39 @@ settings.logErroringRecipes = true
 
 console.info('Hello, World! (You will see this line every time server resources reload)')
 
+// Listen to player login event
+onEvent('player.logged_in', event => {
+	// Check if player doesn't have "starting_items" stage yet
+	if (!event.player.stages.has('starting_items')) {
+	  // Add the stage
+	  event.player.stages.add('starting_items')
+	  // Give some items to player
+	  event.player.give('akashictome:tome')
+	}
+})
+
 onEvent('recipes', event => {
-	// Change recipes here
+	event.shaped('3x minecraft:clay_ball', [
+		'S  '
+	  ], {
+		S: 'minecraft:clay'
+	})
+
+	let bygAmetrineItems = [
+		'byg:ametrine_gems',
+		'byg:ametrine_ore',
+		'byg:ametrine_cluster',
+		'byg:budding_ametrine_ore',
+		'byg:ametrine_block',
+		'byg:ametrine_helmet',
+		'byg:ametrine_chestplate',
+		'byg:ametrine_leggings',
+		'byg:ametrine_boots',
+		'byg:ametrine_horse_armor'
+	]
+	bygAmetrineItems.forEach(item => {
+		event.remove({output: item})
+	})
 })
 
 onEvent('item.tags', event => {

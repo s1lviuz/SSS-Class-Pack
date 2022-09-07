@@ -1,0 +1,6 @@
+curiosSettings = []
+
+[[curiosSettings]]
+  identifier = "bundle"
+  size = 0
+  override = true
