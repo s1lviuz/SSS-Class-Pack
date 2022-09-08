@@ -1,0 +1,19 @@
+
+[general]
+	#The material blacklist of this module.
+	materialBlacklist = ["graphene", "raw_novasteel", "novasteel", "pure_copper", "titanium", "flerovium", "attuned_titanium", "pure_steel", "energized_gold", "mystium", "pure_gold", "steel", "chromium", "pure_titanium", "pure_iron", "compressed_iron", "brick", "copper", "gold", "iron", "netherite", "nether_brick", "tin", "lead", "uranium", "iridium", "enderium", "aluminum", "bronze", "netherite_scrap", "cobalt", "slimesteel", "amethyst_bronze", "rose_gold", "pig_iron", "queens_slime", "manyullyn", "hepatizon", "soulsteel", "knightslime"]
+
+[recipes]
+	#The materials that should not have grinder to dust recipes added.
+	toDustMaterialBlacklist = ["duralumin", "electrical_copper", "felsteel", "gausum", "lavium", "qivium", "chorus_metal", "durasteel", "crusteel", "yokel", "wavy"]
+	#The materials that should not have pneumatic compressor to storage block recipes added.
+	toStorageBlockMaterialBlacklist = ["*"]
+	#The materials that should not have pneumatic compressor to raw storage block recipes added.
+	toRawStorageBlockMaterialBlacklist = []
+	#The materials that should not have pneumatic compressor nugget to material recipes added.
+	toMaterialMaterialBlacklist = ["*"]
+	#The materials that should not have pneumatic compressor to gear recipes added.
+	toPlateMaterialBlacklist = []
+	#The materials that should not have hammer to plate recipes added.
+	hammerToPlateMaterialBlacklist = []
+

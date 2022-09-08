@@ -1,0 +1,5 @@
+
+[general]
+	#The material blacklist of this module.
+	materialBlacklist = ["duralumin", "electrical_copper", "felsteel", "gausum", "lavium", "qivium", "chorus_metal", "durasteel", "crusteel", "yokel", "wavy"]
+
