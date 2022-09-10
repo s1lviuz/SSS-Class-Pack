@@ -22,7 +22,8 @@ onEvent('jei.hide.items', event => {
 		'tinkers_reforged:aluminum_ingot',
 		'tinkers_reforged:aluminum_dust',
 		'tinkers_reforged:aluminum_nugget',
-		'tinkers_reforged:aluminum_block'
+		'tinkers_reforged:aluminum_block',
+		'tcintegrations:bronze_ingot'
 	]
 
 	let itemsToHideLists = []
