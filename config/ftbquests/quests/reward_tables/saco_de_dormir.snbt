@@ -1,0 +1,13 @@
+{
+	id: "376741CF934D88E7"
+	order_index: 0
+	title: "saco de dormir"
+	loot_size: 1
+	rewards: [
+		{ item: "comforts:sleeping_bag_white" }
+		{ item: "comforts:sleeping_bag_black" }
+		{ item: "comforts:sleeping_bag_light_blue" }
+		{ item: "comforts:sleeping_bag_red" }
+		{ item: "comforts:sleeping_bag_magenta" }
+	]
+}

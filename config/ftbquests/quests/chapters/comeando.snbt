@@ -1,0 +1,327 @@
+{
+	id: "6E5476E081BFDE04"
+	group: ""
+	order_index: 0
+	filename: "comeando"
+	title: "Começando"
+	icon: {
+		id: "occultism:book_of_calling_foliot_cleaner"
+		Count: 1b
+		tag: {
+			spiritName: "Reiloriark"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Bem-vindo!"
+			x: -3.5d
+			y: -6.0d
+			shape: "square"
+			subtitle: "Iniciando sua jornada"
+			description: [
+				"Olá jogador(a)!"
+				""
+				"Esse modpack foi feito especialmente pra você!"
+				""
+				"É isso mesmo... Além de totalmente feito em Pt-br vamos iniciar uma nova experiência dentro do Minecraft"
+				""
+				"Vamos nessa!?"
+				""
+			]
+			id: "5B62E8ACCC620381"
+			tasks: [{
+				id: "2384F13BBFD8BC6E"
+				type: "checkmark"
+				title: "Clique aqui pra completar essa missão"
+			}]
+		}
+		{
+			title: "Completando missões"
+			x: -3.5d
+			y: -8.0d
+			subtitle: "FTB Quests"
+			description: [
+				"Esse modpack segue uma linha de progressão"
+				""
+				"Complete Missões para avançar e obter certas Recompensas"
+				""
+				"Essa aba pode ser aberta pelo inventário"
+				"{image:modpack:textures/quest1.png width:100 height:100 align:1}"
+				""
+				""
+				"E também por um atalho que pode ser configurado pelo menu de Controles do Minecraft"
+				"{image:modpack:textures/quest2.png width:100 height:100 align:1}"
+				""
+				"Ou pelo livro que foi dado no inicio do jogo"
+			]
+			dependencies: ["5B62E8ACCC620381"]
+			id: "14866B86DE31F69D"
+			tasks: [{
+				id: "37B6B603FE1B1FC1"
+				type: "checkmark"
+				title: "Clique aqui pra completar essa missão"
+			}]
+		}
+		{
+			title: "O que vem por ai?"
+			x: -3.5d
+			y: -10.0d
+			subtitle: "Mãos a obra!"
+			description: [
+				"Pra começar sua jornada obtenha os itens necessários para uma sobrevivência básica"
+				""
+				"Só o básico"
+			]
+			dependencies: ["14866B86DE31F69D"]
+			id: "2627275FBB176F21"
+			tasks: [{
+				id: "16C173D3B27FEC72"
+				type: "checkmark"
+				title: "Só me fala o q tenho que fazer..."
+			}]
+		}
+		{
+			title: "Já ta de noite!?"
+			x: -1.0d
+			y: -10.0d
+			subtitle: "Não da pra dormir no chão né..."
+			description: [
+				""
+				"Faça sua cama e não passe vergonha"
+				""
+			]
+			dependencies: ["2627275FBB176F21"]
+			id: "33E1F961A1683515"
+			tasks: [{
+				id: "13FB44082454C760"
+				type: "item"
+				title: "Any #minecraft:beds"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "48900D4448054559"
+					type: "random"
+					icon: "comforts:sleeping_bag_white"
+					table_id: 3992231954472601831L
+				}
+				{
+					id: "045CF32B35ED8462"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Madeeeeeeeira!"
+			x: -3.5d
+			y: -12.0d
+			subtitle: "Lutando contra um toco"
+			description: [
+				""
+				"Derrube uma arvore com suas próprias mãos"
+				""
+				"Este modpack contém um mod chamado FTB Ultimine"
+				"com ele é possivel quebrar blocos em cadeia segurando a tecla \" (aspas) por padrão"
+				"e é exibido na tela os blocos que serão afetados"
+				"Max: 64x Blocos"
+			]
+			dependencies: ["2627275FBB176F21"]
+			id: "46C92D7C165F04B6"
+			tasks: [{
+				id: "3DB01BAF5753401F"
+				type: "item"
+				title: "Any #minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+			}]
+			rewards: [{
+				id: "782673DEFD433E7E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Abuser"
+			x: -2.5d
+			y: -14.0d
+			subtitle: "Esse negócio é bom né?"
+			description: [
+				""
+				"Tome sua Recompensa"
+			]
+			dependencies: ["46C92D7C165F04B6"]
+			optional: true
+			secret: true
+			id: "59BDEF4245151F20"
+			tasks: [{
+				id: "7CC20EC464C304BE"
+				type: "item"
+				title: "Any #minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				count: 64L
+			}]
+			rewards: [{
+				id: "16F7C6B121D21C5A"
+				type: "item"
+				item: "farmersdelight:egg_sandwich"
+				count: 10
+			}]
+		}
+		{
+			title: "Ferramentas básicas"
+			x: -7.5d
+			y: -14.0d
+			subtitle: "Essa é a peça que você queria?"
+			dependencies: ["795501CEDF833F3B"]
+			id: "45E889AECAEACE22"
+			tasks: [
+				{
+					id: "7938E858AA1F2763"
+					type: "item"
+					item: {
+						id: "minecraft:stone_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "47519DACE46F8DAE"
+					type: "item"
+					item: {
+						id: "minecraft:stone_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "33ED2168219A9F03"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "CraftMan"
+			x: -5.0d
+			y: -14.0d
+			subtitle: "Faça sua Craft Table"
+			description: [""]
+			dependencies: ["46C92D7C165F04B6"]
+			id: "795501CEDF833F3B"
+			tasks: [{
+				id: "7D5E612218065CD4"
+				type: "item"
+				title: "Any #forge:workbenches"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:workbenches"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3C4B5473123E1ECC"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Estou pronto!"
+			icon: "buddycards:buddysteel_medal_base"
+			x: -7.5d
+			y: -12.0d
+			shape: "gear"
+			subtitle: "Agora sim podemos começar...."
+			description: [
+				""
+				"Vá para o próximo capitulo na aba lateral da esquerda"
+			]
+			dependencies: ["45E889AECAEACE22"]
+			size: 1.5d
+			id: "0A67AD3CDCD1FD9B"
+			tasks: [{
+				id: "5BDA782FA6F20C5E"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4521D833C398D046"
+				type: "xp"
+				xp: 500
+			}]
+		}
+		{
+			title: "Siga as Missões"
+			x: -1.0d
+			y: -8.0d
+			subtitle: "Segue o lider!"
+			description: [
+				"Acredite, elas te guiarão pelo lado certo da força"
+				""
+				"Algumas Missões possuem dependencias, você deve completa-las para seguir"
+				""
+				"Falando em guia essa é uma jornada que não se vale a pena andar sozinho"
+				""
+				"Clame sua Recompensa e cuide bem dela!"
+				"Auauauau"
+			]
+			dependencies: ["14866B86DE31F69D"]
+			optional: true
+			id: "7A21A724B7A8884C"
+			tasks: [{
+				id: "291E755FBFB00FBB"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "36BCCF799E270AFD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3665FC44F6E59887"
+					type: "item"
+					item: "doggytalents:doggy_charm"
+				}
+				{
+					id: "1534CAB7B2F81161"
+					type: "item"
+					item: {
+						id: "doggytalents:dog_bed"
+						Count: 1b
+						tag: {
+							doggytalents: {
+								casingId: "minecraft:oak_planks"
+								beddingId: "minecraft:white_wool"
+							}
+						}
+					}
+				}
+			]
+		}
+	]
+}

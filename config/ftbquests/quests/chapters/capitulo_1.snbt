@@ -1,0 +1,22 @@
+{
+	id: "0FBCE9D9076795B1"
+	group: ""
+	order_index: 1
+	filename: "capitulo_1"
+	title: "Capitulo 1"
+	icon: "croptopia:strawberry"
+	subtitle: ["A vida não é um morango"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		shape: "square"
+		dependencies: ["0A67AD3CDCD1FD9B"]
+		id: "119F56DAFA6D96BE"
+		tasks: [{
+			id: "692E2F79FC183D48"
+			type: "checkmark"
+		}]
+	}]
+}

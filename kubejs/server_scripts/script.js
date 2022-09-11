@@ -14,7 +14,7 @@ onEvent('player.logged_in', event => {
 	  // Add the stage
 	  event.player.stages.add('starting_items')
 	  // Give some items to player
-	  event.player.give('akashictome:tome')
+	  event.player.give('ftbquests:book')
 	}
 })
 
