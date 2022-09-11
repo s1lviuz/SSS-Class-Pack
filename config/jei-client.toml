@@ -51,7 +51,7 @@
 	#black, dark_blue, dark_green, dark_aqua, dark_red, dark_purple, gold, gray, dark_gray, blue, green, aqua, red, light_purple, yellow, white
 	#With these formatting options:
 	#obfuscated, bold, strikethrough, underline, italic
-	ModNameFormat = "red italic"
+	ModNameFormat = "light_purple italic"
 
 [IngredientList]
 	#Max number of rows shown
