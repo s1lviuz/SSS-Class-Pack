@@ -1,0 +1,5 @@
+
+[general]
+	#The material blacklist of this module.
+	materialBlacklist = ["shaka", "ironwood", "fiery", "knightmetal", "steeleaf", "elementium", "manasteel", "terrasteel", "aluminum", "duralumin", "electrical_copper", "lavium", "qivium", "gausum", "felsteel", "kepu", "chorus_metal", "durasteel", "crusteel", "wavy", "yokel", "graphene", "raw_novasteel", "novasteel", "pure_copper", "titanium", "flerovium", "attuned_titanium", "pure_steel", "energized_gold", "mystium", "pure_gold", "steel", "chromium", "pure_titanium", "pure_iron", "compressed_iron", "brick", "copper", "gold", "iron", "netherite", "nether_brick", "hellforged", "tin", "lead", "uranium", "iridium", "enderium", "aluminum", "bronze", "netherite_scrap", "cobalt", "slimesteel", "amethyst_bronze", "rose_gold", "pig_iron", "queens_slime", "manyullyn", "hepatizon", "soulsteel", "knightslime", "neptunium", "bronze", "soul_stained_steel", "arcane_gold", "obsidian"]
+

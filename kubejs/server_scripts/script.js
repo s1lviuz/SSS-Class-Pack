@@ -25,6 +25,13 @@ onEvent('recipes', event => {
 		S: 'minecraft:clay'
 	})
 
+	event.shaped('16x minecraft:stick', [
+		'  S',
+		'  S'
+		], {
+		S: '#minecraft:logs'
+	})
+
 	let bygAmetrineItems = [
 		'byg:ametrine_gems',
 		'byg:ametrine_ore',
