@@ -136,6 +136,12 @@
 	#Chance to receive a random beneficial spell effect when praying near a grave [0..100|default:40]
 	#Range: 0 ~ 100
 	chance_pray_reward = 90
+	#Minimum distance between Grave Gardians to spawn [10..200|default:100]
+	#Range: 10 ~ 200
+	distance_between_grave_guardian = 100
+	#Time in minutes for a Grave Guardian to restock its offers [1..1000|default:60]
+	#Range: 1 ~ 1000
+	restock_time_grave_guardian = 60
 
 #Allows to customize or disable the enchantments
 [enchantments]
